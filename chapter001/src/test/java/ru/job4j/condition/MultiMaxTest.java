@@ -32,4 +32,11 @@ public class MultiMaxTest {
     int result = check.max(2, 2, 2);
     assertThat(result, is(2));
   }
+
+  @Test
+  public void whenNegativeNumbers() {
+    MultiMax check = new MultiMax();
+    int result = check.max(-2, -1, -5);
+    assertThat(result, is(-1));
+  }
 }
