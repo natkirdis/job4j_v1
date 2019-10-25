@@ -7,7 +7,7 @@ public class Defragment {
       int indexSecond = index + 1;
       if (cell == null) {
         while ((indexSecond < array.length - 1) && (array[indexSecond] == null)) {
-          indexSecond +=1;
+          indexSecond += 1;
         }
         array[index] = array[indexSecond];
         array[indexSecond] = null;
