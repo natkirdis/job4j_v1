@@ -1,5 +1,9 @@
 package ru.job4j.array;
 
+/**
+ * Calculate
+ * @author Natalia Kirdis (kirdisnatalia@gmail.com)
+ */
 public class ArrayChar {
 
   public static boolean startsWith(char[] word, char[] pref) {
