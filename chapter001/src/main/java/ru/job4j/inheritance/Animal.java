@@ -1,12 +1,17 @@
 package ru.job4j.inheritance;
 
 public class Animal {
-  public Animal() {
+  private String name;
+
+  public Animal(String name) {
+  }
+
+ public Animal() {
     super();
     System.out.println(Animal.class.getSimpleName());
   }
 
   public static void main(String[] args) {
-    Tiger bug = new Tiger();
+    Animal simba = new Tiger("Simba");
   }
 }
